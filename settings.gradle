@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Fragment_ViewPager"
+include ':app'
+include ':app:fragment_view_pager'
+include ':app:fragment_viewlist'
+include ':app:fragment_viewpager2'
+include ':app:fragment_sliders'
+include ':app:fragment_to_fragment'
+include ':app:fragment_to_fragment_use_listview'
+include ':app:secondnaviagation'

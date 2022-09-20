@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECDF70"
+    tools:context=".One_Fragment">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="577dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Fragment1"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:id="@+id/list_fragment1"/>
+
+
+
+
+        <!-- TODO: Update blank fragment layout -->
+<!--        <TextView-->
+<!--            android:id="@+id/fragment1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="82dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Fragment1"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/UserName"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="200dp"-->
+<!--            android:hint="write something"-->
+<!--           android:padding="10dp"-->
+
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"/>-->
+
+
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/dataform2"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="256dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="70dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="90dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="150dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text=""&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="20sp"/>&ndash;&gt;-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/UserMail"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:hint="enter something"-->
+<!--            />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/sendFragment1"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="90dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="send to fragment" />-->
+    </FrameLayout>
+
+
+    </FrameLayout>
